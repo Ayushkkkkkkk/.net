@@ -1,0 +1,33 @@
+# Build artifacts
+bin/
+obj/
+*.exe
+*.dll
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code / JetBrains
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Configuration files
+appsettings.Development.json
+secrets.json
+
+# EF Core migration snapshots (optional)
+**/*ModelSnapshot.cs
+
+# dotnet-ef tools
+.mefproject.json
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
